@@ -317,7 +317,7 @@ section{padding:72px 0;}
 .footer-grid{
   display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:48px;
 }
-.footer-col h4{
+.footer-col .footer-heading{
   color:var(--on-ink);font-family:var(--font-body);font-weight:600;font-size:14px;margin-bottom:16px;
 }
 .footer-col p{color:var(--on-ink-muted);font-size:14px;margin-bottom:10px;}
