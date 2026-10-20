@@ -1,3 +1,4 @@
+<?php // TSD-4RT | DB | 20. 10. 2026. — includes/footer.php: zajedničko podnožje svih stranica. ?>
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
@@ -25,18 +26,18 @@
       </div>
 
       <div class="footer-col">
-        <h4>Navigacija</h4>
+        <h2 class="footer-heading">Navigacija</h2>
         <ul>
-          <li><a href="index.html">Početna</a></li>
-          <li><a href="o-nama.html">O nama</a></li>
-          <li><a href="usluge.html">Usluge</a></li>
-          <li><a href="blog.html">Novosti</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="index.php">Početna</a></li>
+          <li><a href="o-nama.php">O nama</a></li>
+          <li><a href="usluge.php">Usluge</a></li>
+          <li><a href="blog.php">Novosti</a></li>
+          <li><a href="kontakt.php">Kontakt</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
-        <h4>Kontakt</h4>
+        <h2 class="footer-heading">Kontakt</h2>
         <p>Ivana Gundulića 14<br>43500 Daruvar</p>
         <p><a href="mailto:info@secureline.hr">info@secureline.hr</a></p>
         <p><a href="tel:+38543123456">+385 43 123 456</a></p>
@@ -44,10 +45,10 @@
       </div>
 
       <div class="footer-col">
-        <h4>Pravno</h4>
+        <h2 class="footer-heading">Pravno</h2>
         <ul>
-          <li><a href="privatnost.html">Politika privatnosti</a></li>
-          <li><a href="uvjeti.html">Uvjeti korištenja</a></li>
+          <li><a href="privatnost.php">Politika privatnosti</a></li>
+          <li><a href="uvjeti.php">Uvjeti korištenja</a></li>
         </ul>
       </div>
     </div>
@@ -58,3 +59,7 @@
     </div>
   </div>
 </footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
