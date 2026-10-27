@@ -12,9 +12,11 @@
   <?php
   echo "Dobro došli na stranicu"
   ?>
+
+  <?php include "header.php"; ?>
+
+
 <a class="skip-link" href="#main">Preskoči na sadržaj</a>
-
-
 
 <main id="main">
 
@@ -180,7 +182,7 @@
         <h2>Prijavite se na naše novosti</h2>
         <p>Kratke obavijesti o novim člancima i sigurnosnim upozorenjima. Bez spama.</p>
       </div>
-      <form class="newsletter-form" data-ajax action="https://formspree.io/f/YOUR_NEWSLETTER_FORM_ID" method="POST" data-success-message="Hvala na prijavi! Provjerite svoj inbox.">
+      <form class="newsletter-form" data-ajax action="https://formspree.io/f/mppqjgra" method="POST" data-success-message="Hvala na prijavi! Provjerite svoj inbox.">
         <input type="email" name="email" placeholder="vaš e-mail" aria-label="E-mail adresa" required>
         <button type="submit" class="btn btn-primary">Prijavi se</button>
         <p class="newsletter-fineprint">Vašu e-mail adresu nikada ne dijelimo s trećim stranama. Odjava je moguća u svakom trenutku — pogledajte <a href="privatnost.html">politiku privatnosti</a>.</p>
@@ -189,7 +191,12 @@
     </div>
   </section>
 
+
 </main>
 <script src="js/main.js"></script>
+
+<?php include "footer.php"; ?>
+
+
 </body>
 </html>
