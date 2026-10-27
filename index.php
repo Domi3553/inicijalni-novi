@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="hr">
 <head>
 <meta charset="UTF-8">
@@ -17,23 +18,27 @@
 
 
 <a class="skip-link" href="#main">Preskoči na sadržaj</a>
+=======
+<!-- TSD-4RT | DB | 20. 10. 2026. -->
+<?php
+$naslov = 'SecureLine — informacijska sigurnost za tvrtke';
+$opis = 'SecureLine analizira sigurnost web sustava i educira zaposlenike o informacijskoj sigurnosti. Sigurnost bez kompromisa.';
+$aktivna = 'index';
+include 'includes/header.php';
+?>
+>>>>>>> 68898ea10bc127f0d65f2ae39818bd83a5497d94
 
 <main id="main">
 
   <section class="hero">
-    
-    <?php
-    echo "Zadnja izmjena je bila 6.10.2026.";
-?>
-
     <div class="container">
       <div>
         <p class="hero-eyebrow">Informacijska sigurnost</p>
         <h1>Štitimo ono što je bitno za vaše poslovanje</h1>
         <p>Analiziramo sigurnost vaših web sustava i educiramo zaposlenike da prepoznaju prijetnje prije nego što postanu problem.</p>
         <div class="hero-actions">
-          <a href="usluge.html" class="btn btn-primary">Pogledaj usluge</a>
-          <a href="kontakt.html" class="btn btn-outline">Zatraži ponudu</a>
+          <a href="usluge.php" class="btn btn-primary">Pogledaj usluge</a>
+          <a href="kontakt.php" class="btn btn-outline">Zatraži ponudu</a>
         </div>
       </div>
       <svg class="hero-art" viewBox="0 0 400 400" fill="none" role="img" aria-labelledby="heroArtTitle">
@@ -77,7 +82,7 @@
           </svg>
           <h3>Analiza sigurnosti weba</h3>
           <p>Provjeravamo vaše web stranice i aplikacije i tražimo ranjivosti prije nego što ih pronađe netko drugi.</p>
-          <a href="usluge.html" class="read-more">Saznaj više</a>
+          <a href="usluge.php" class="read-more">Saznaj više</a>
         </div>
 
         <div class="card service-card">
@@ -88,7 +93,7 @@
           </svg>
           <h3>Edukacija zaposlenika</h3>
           <p>Radionice koje zaposlenicima pokazuju kako prepoznati phishing, slabe lozinke i druge svakodnevne rizike.</p>
-          <a href="usluge.html" class="read-more">Saznaj više</a>
+          <a href="usluge.php" class="read-more">Saznaj više</a>
         </div>
 
         <div class="card service-card">
@@ -100,7 +105,7 @@
           </svg>
           <h3>Sigurnosne politike</h3>
           <p>Pomažemo definirati jasna pravila za rukovanje podacima, lozinkama i pristupom sustavima.</p>
-          <a href="usluge.html" class="read-more">Saznaj više</a>
+          <a href="usluge.php" class="read-more">Saznaj više</a>
         </div>
 
       </div>
@@ -116,7 +121,7 @@
       <div class="grid-3">
 
         <article class="article-card">
-          <a class="thumb" href="clanak-phishing.html" tabindex="-1" aria-hidden="true">
+          <a class="thumb" href="clanak-phishing.php" tabindex="-1" aria-hidden="true">
             <svg viewBox="0 0 400 225" role="img" aria-hidden="true">
               <rect width="400" height="225" fill="#12181F"/>
               <rect x="140" y="80" width="120" height="80" rx="4" stroke="#C99A3E" stroke-width="2" fill="none"/>
@@ -126,14 +131,14 @@
           </a>
           <div class="article-body">
             <p class="article-meta">Prepoznavanje prijetnji</p>
-            <h3><a href="clanak-phishing.html">Kako prepoznati phishing e-mail u 30 sekundi</a></h3>
+            <h3><a href="clanak-phishing.php">Kako prepoznati phishing e-mail u 30 sekundi</a></h3>
             <p>Pet znakova upozorenja koje bi svaki zaposlenik trebao znati prije nego što klikne na poveznicu.</p>
-            <a class="read-more" href="clanak-phishing.html">Pročitaj više</a>
+            <a class="read-more" href="clanak-phishing.php">Pročitaj više</a>
           </div>
         </article>
 
         <article class="article-card">
-          <a class="thumb" href="clanak-lozinke.html" tabindex="-1" aria-hidden="true">
+          <a class="thumb" href="clanak-lozinke.php" tabindex="-1" aria-hidden="true">
             <svg viewBox="0 0 400 225" role="img" aria-hidden="true">
               <rect width="400" height="225" fill="#12181F"/>
               <circle cx="170" cy="112" r="22" stroke="#C99A3E" stroke-width="2" fill="none"/>
@@ -145,14 +150,14 @@
           </a>
           <div class="article-body">
             <p class="article-meta">Osnove sigurnosti</p>
-            <h3><a href="clanak-lozinke.html">Lozinke i dvofaktorska prijava: kratki vodič</a></h3>
+            <h3><a href="clanak-lozinke.php">Lozinke i dvofaktorska prijava: kratki vodič</a></h3>
             <p>Zašto je "Ljeto2024!" loša lozinka i kako 2FA zaustavlja većinu upada u račune.</p>
-            <a class="read-more" href="clanak-lozinke.html">Pročitaj više</a>
+            <a class="read-more" href="clanak-lozinke.php">Pročitaj više</a>
           </div>
         </article>
 
         <article class="article-card">
-          <a class="thumb" href="clanak-ransomware.html" tabindex="-1" aria-hidden="true">
+          <a class="thumb" href="clanak-ransomware.php" tabindex="-1" aria-hidden="true">
             <svg viewBox="0 0 400 225" role="img" aria-hidden="true">
               <rect width="400" height="225" fill="#12181F"/>
               <rect x="165" y="105" width="70" height="55" rx="6" stroke="#C99A3E" stroke-width="2" fill="none"/>
@@ -163,15 +168,15 @@
           </a>
           <div class="article-body">
             <p class="article-meta">Prijetnje u porastu</p>
-            <h3><a href="clanak-ransomware.html">Ransomware: kako se manje tvrtke mogu pripremiti</a></h3>
+            <h3><a href="clanak-ransomware.php">Ransomware: kako se manje tvrtke mogu pripremiti</a></h3>
             <p>Praktičan pregled sigurnosnih kopija, segmentacije mreže i planiranja odgovora na incident.</p>
-            <a class="read-more" href="clanak-ransomware.html">Pročitaj više</a>
+            <a class="read-more" href="clanak-ransomware.php">Pročitaj više</a>
           </div>
         </article>
 
       </div>
       <div style="margin-top:32px;">
-        <a href="blog.html" class="btn btn-outline-dark">Svi članci</a>
+        <a href="blog.php" class="btn btn-outline-dark">Svi članci</a>
       </div>
     </div>
   </section>
@@ -182,10 +187,14 @@
         <h2>Prijavite se na naše novosti</h2>
         <p>Kratke obavijesti o novim člancima i sigurnosnim upozorenjima. Bez spama.</p>
       </div>
+<<<<<<< HEAD
       <form class="newsletter-form" data-ajax action="https://formspree.io/f/mppqjgra" method="POST" data-success-message="Hvala na prijavi! Provjerite svoj inbox.">
+=======
+      <form class="newsletter-form" data-ajax novalidate action="https://formspree.io/f/mppqjgra" method="POST" data-success-message="Hvala na prijavi! Provjerite svoj inbox.">
+>>>>>>> 68898ea10bc127f0d65f2ae39818bd83a5497d94
         <input type="email" name="email" placeholder="vaš e-mail" aria-label="E-mail adresa" required>
         <button type="submit" class="btn btn-primary">Prijavi se</button>
-        <p class="newsletter-fineprint">Vašu e-mail adresu nikada ne dijelimo s trećim stranama. Odjava je moguća u svakom trenutku — pogledajte <a href="privatnost.html">politiku privatnosti</a>.</p>
+        <p class="newsletter-fineprint">Vašu e-mail adresu nikada ne dijelimo s trećim stranama. Odjava je moguća u svakom trenutku — pogledajte <a href="privatnost.php">politiku privatnosti</a>.</p>
         <div class="form-status" role="status"></div>
       </form>
     </div>
@@ -193,6 +202,7 @@
 
 
 </main>
+<<<<<<< HEAD
 <script src="js/main.js"></script>
 
 <?php include "footer.php"; ?>
@@ -200,3 +210,6 @@
 
 </body>
 </html>
+=======
+<?php include 'includes/footer.php'; ?>
+>>>>>>> 68898ea10bc127f0d65f2ae39818bd83a5497d94
